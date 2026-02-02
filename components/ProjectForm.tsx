@@ -21,7 +21,7 @@ export default function ProjectForm({ onClose }: ProjectFormProps) {
     setIsSubmitting(true);
     // Simulating an API call
     setTimeout(() => {
-      alert("Inquiry sent! (Note: You'll need an API route to make this real)");
+      alert("Inquiry sent! (Note: This is a \"mock\" submission.);
       setIsSubmitting(false);
       onClose();
     }, 1500);
